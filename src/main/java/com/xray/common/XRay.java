@@ -37,7 +37,7 @@ public class XRay
 	public static float outlineOpacity = 1f;
 
     // Radius +/- around the player to search. So 8 is 8 on left and right of player plus under the player. So 17x17 area.
-    public static final int[] distNumbers = new int[] {8, 16, 32, 48, 64, 80, 128, 256};
+    public static final int[] distNumbers = new int[] {8, 16, 32, 48, 64, 80, 128, 256, 512, 1024, 2048, 4096};
 
     // Keybindings
 	public static final int keyIndex_toggleXray = 0;
